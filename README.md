@@ -143,9 +143,9 @@ ldapsearch -x -b "dc=megabank,dc=local" -h 10.129.136.132
 - En la imagen superior vemos que el usuario RYAN pertenece al grupo DNSADMIN. Eso también es una pista.
 - Existe un procedimiento ya conocido para expotar la vulnerabilidad:
 
-** Construir una DLL maliciosa
-** Inyectar la DLL maliciosa de manera remota, es decir, a través de SMB. Se puede realizar de manera local pero algún AV podría detectarlo.
-** Reiniciar el servicio y se obtiene shell reversa.
+* Construir una DLL maliciosa
+* Inyectar la DLL maliciosa de manera remota, es decir, a través de SMB. Se puede realizar de manera local pero algún AV podría detectarlo.
+* Reiniciar el servicio y se obtiene shell reversa.
 
 https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-dnsadmins-to-system-to-domain-compromise
 https://medium.com/techzap/dns-admin-privesc-in-active-directory-ad-windows-ecc7ed5a21a2
