@@ -63,7 +63,7 @@ Host script results:
 
 ```
 
-<img src="https://github.com/El-Palomo/MONTEVERDE-HTB/blob/main/Monte1.jpg" width=80% />
+<img src="https://github.com/El-Palomo/Resolute-HTB/blob/main/Resolute1.jpg" width=80% />
 
 
 
